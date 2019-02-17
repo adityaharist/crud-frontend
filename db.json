@@ -1,8 +1,19 @@
-// nama objek post isinya beberapa array, diantaranya id,title,dan author dg berbeda-beda valuenya
-// objek ke2 adalah comments dg isi berupa id,body,dan postId
-// objek ke3 adalah profil dengan nama datanya yaitu name
 {
-    "posts": [{"id": 1, "title": "json-server", "author": "typicode"}],
-    "comments": [{"id": 1, "body": "some comment", "postId": 1}],
-    "profile": {"name": "typicode"}
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
